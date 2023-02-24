@@ -60,6 +60,7 @@ a {
 .header-links {
     display: flex;
     gap: 24px;
+    align-items: center;
 }
 
 .hero-image {
@@ -85,4 +86,9 @@ a {
     border: none;
     padding: 8px 28px;
     border-radius: 10px;
+}
+
+.header-logo {
+    height: 80px;
+    width: auto;
 }
