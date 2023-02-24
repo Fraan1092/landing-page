@@ -1,7 +1,11 @@
+.hero-content {
+    border: 1px solid white;
+}
 /*debuggin purposes*/
 
 body {
     margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -25,11 +29,12 @@ ul {
 .hero {
     display: flex;
     justify-content: center;
-    padding: 40px 90px; 
+    padding: 90px 90px; 
+    gap: 42px;
 }
 
 .first-section {
-    background-color: #1f2937;
+    background-color: #5e2c40;
 }
 
 a {
@@ -42,11 +47,11 @@ a {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    padding-bottom: 12px;
 }
 
 .hero-text,
-.header-links,
-.hero-image {
+.header-links {
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -54,4 +59,18 @@ a {
 .header-links {
     display: flex;
     gap: 24px;
-    }
+}
+
+.hero-image {
+    height: 400px;
+    width: auto;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    min-width: 300px;
+    gap: 12px;
+}
