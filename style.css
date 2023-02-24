@@ -1,7 +1,8 @@
+/*
 .hero-content {
     border: 1px solid white;
 }
-/*debuggin purposes*/
+debuggin purposes*/
 
 body {
     margin: 0;
@@ -64,6 +65,7 @@ a {
 .hero-image {
     height: 400px;
     width: auto;
+    border-radius: 4px;
 }
 
 .hero-content {
@@ -73,4 +75,14 @@ a {
     width: 500px;
     min-width: 300px;
     gap: 16px;
+}
+
+.sign-up {
+    color: #f9faf8;
+    background-color: #443C68;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    padding: 8px 28px;
+    border-radius: 10px;
 }
