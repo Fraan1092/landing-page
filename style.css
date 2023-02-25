@@ -115,7 +115,8 @@ a {
 
 .info-items {
     display: flex;
-    gap: 46px;
+    gap: 52px;
+    flex-wrap: wrap;
 }
 
 .item {
