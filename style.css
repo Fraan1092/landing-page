@@ -88,6 +88,7 @@ a {
     border: none;
     padding: 8px 28px;
     border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
 }
 
 .header-logo {
@@ -98,5 +99,5 @@ a {
 /*second section*/
 
 .second-section {
-    background-color: #aaabad
+    background-color: #443C68;
 }
