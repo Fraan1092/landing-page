@@ -100,4 +100,16 @@ a {
 
 .second-section {
     background-color: #443C68;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-items {
+    display: flex;
+}
+
+.item img {
+    width: 300px;
+    height: auto;
 }
