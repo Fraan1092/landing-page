@@ -216,3 +216,16 @@ a {
     margin: 0;
     font-size: 18px;
 }
+
+/* footer */
+
+footer {
+    background-color: #5e2c40;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    margin: 20px;
+    color: #f9faf8;
+}
