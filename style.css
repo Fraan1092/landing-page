@@ -175,3 +175,44 @@ a {
 }
 
 /* fourth section*/
+
+.fourth-section {
+    background-color: #a0496c;
+    display: flex;
+    justify-content: center;
+}
+
+.call-action {
+    display: flex;
+    background-color: #443C68;
+    margin: 90px 0;
+    padding: 40px 120px;
+    gap: 300px;
+    border-radius: 10px;
+    color: #f9faf8;
+}
+
+.call-button {
+    box-shadow: none;
+    padding: 0 20px;
+    font-weight: bold;
+    font-size: 22px;
+    border: 2px solid #f9faf8;
+}
+
+.call-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.call-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.call-sentence {
+    margin: 0;
+    font-size: 18px;
+}
