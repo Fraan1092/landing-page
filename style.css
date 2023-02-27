@@ -6,6 +6,11 @@ debuggin purposes*/
 
 /* first section*/
 
+@font-face {
+    font-family: Roboto-light;
+    src: url(roboto-light.ttf);
+}
+
 body {
     margin: 0;
     font-family: "Roboto", sans-serif;
@@ -44,7 +49,6 @@ ul {
 }
 
 a {
-    font-size: 24px;
     text-decoration: none;
     color: #f9faf8;
 }
@@ -160,7 +164,7 @@ a {
 }
 
 .quote {
-    font-family: "Roboto light", sans-serif;
+    font-family: Roboto-light, sans-serif;
     font-size: 40px;
     font-style: italic;
 }
