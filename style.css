@@ -68,13 +68,11 @@ a {
 }
 
 .hero-image {
-    height: 400px;
-    width: auto;
+    max-height: 400px;
     border-radius: 4px;
     border: 2px solid silver;
-    min-width: none;
-    flex-basis: auto;
     flex-shrink: 1;
+    min-width: 260px;
 }
 
 .hero-content {
