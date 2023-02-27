@@ -34,7 +34,7 @@ ul {
 .hero {
     display: flex;
     justify-content: center;
-    padding: 80px 90px; 
+    margin: 80px 10px; 
     gap: 42px;
     flex-wrap: wrap;
 }
