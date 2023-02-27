@@ -101,16 +101,16 @@ a {
 /*second section*/
 
 .second-section {
-    background-color: silver;
+    background-color:  #a0496c;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .info-header {
-    font-size: 32px;
+    font-size: 36px;
     font-weight: bold;
-    padding: 32px;
+    padding: 50px;
 }
 
 .info-items {
@@ -123,7 +123,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .item img {
