@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ddb2d7;
+}
+
+.wip-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1,
+div {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
